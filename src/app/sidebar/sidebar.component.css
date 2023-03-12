@@ -1,0 +1,38 @@
+.sidebar {
+    background-color: #f5f5f5;
+    height: calc(100vh - 60px); /* tính chiều cao cho phần sidebar */
+    width: 200px;
+    position: fixed;
+    top: 60px; /* căn giữa so với phần topbar */
+    left: 0;
+    padding: 20px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    display: block;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    color: #333;
+  }
+  
+  .sidebar a:hover {
+    background-color: #e5e5e5;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .sidebar a.active {
+    background-color: #ddd;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  
