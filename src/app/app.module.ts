@@ -6,12 +6,12 @@ import { AppComponent } from './app.component';
 
 /** PdfViewer */
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
-import { ExamplePdfViewerComponent } from './example-pdf-viewer/example-pdf-viewer.component';
+import { FileInfoComponent } from './file-info/file-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ExamplePdfViewerComponent
+    FileInfoComponent
   ],
   imports: [
     BrowserModule,
